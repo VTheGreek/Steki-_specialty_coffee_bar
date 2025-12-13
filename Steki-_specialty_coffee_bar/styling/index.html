@@ -3,32 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/39d77478c3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css" />
     <title>Steki Specialty Coffee Bar</title>
 </head>
 <body>
     <header>
-        <div class="nav">
-            <img src="/pct/steki-logo.jpg" alt="logo" />
-            <p><span>Steki</span> Specialty Coffee Bar</p>
-            <ul>
-                <li>Home</li>
-                <li>Menu</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-            <div class="visit">
-                <p>Visit Us</p>
+        <div class="nav" id="navbar">
+                <a href="#home" class="nav">Home</a>
+                <a href="#menu" class="nav">Menu</a>
+                <a href="#about" class="nav">About</a>
+                <a href="#contact" class="nav">Contact</a>
+                <button type="button" class="visit"><a href="#">Visit Us</a></button>
+                <img src="/Steki-_specialty_coffee_bar/pct/steki-logo.jpg" alt="logo" class="logo"/>
             </div>
-        </div>
     </header>
 
     <main>
-        <img src="/pct/latte-coffee-cup.jpg" alt="latte" />
+        <img src="/Steki-_specialty_coffee_bar/pct/latte-coffee-cup.jpg" alt="latte" class="latte" />
         <h2 id="subtitle">SPECIALTY COFFEE BAR</h2>
-        <h1>Crafted with passion</h1>
-        <p class="description">Experience the finest coffee beans, expertly roasted<br>
-         and brewed to perfection at Steki Specialty Coffee Bar</p>
+        <h1>Crafted with <br> <span class="passion">passion</span></h1>
+        <p class="description">Experience the finest coffee beans,<br> expertly roasted<br>
+         and brewed to perfection at<br> Steki Specialty Coffee Bar</p>
 
          <div class="buttons">
             <button type="button" class="explore">Explore Menu</button>
@@ -52,5 +48,36 @@ We carefully select and roast our beans in small batches to ensure every cup del
         </p>
         <button type="button" class="hello">Come Say Hello</button>
     </article>
+
+    <footer>
+        <div class="footer-list">
+            <ul>
+                <li><span class="footer-span">Steki</span><br>
+                SPECIALTY COFFEE
+                <p>Your neighborhood specialty coffee bar. Crafted with passion, served with love.</p></li>
+                <li><i class="fa-solid fa-location-dot"></i>
+                    Visit
+                    <i class="fa-solid fa-phone"></i> 
+                    <a href="tel:+4733378901">+47 333 78 901</a></p>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:someone@example.com">Send email</a>
+                </li>
+                <li><i class="fa-solid fa-clock"></i>Hours
+                    <p>Mon - Fri<br>
+                    07:00 AM - 08:00 PM<br></p>
+                    <p>Sat - Sun <br>
+                    08:00 AM - 09:00 PM</p> <br></p>
+                </li>
+                <li>Quick Links
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

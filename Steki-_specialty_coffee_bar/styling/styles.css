@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: #e6e1e1;
+    --black-color: #242424;
+    --secondary-color: #8BC89F;
+    --third-color: #0D423A;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: var(--secondary-color);
+}
+
+#navbar .nav {
+    float: left;
+    display: block;
+    color: var(--black-color);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.logo {
+    float: right;
+    height: 3em;
+}
+
+.visit {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 1.3em;
+    width: 8em;
+    color: var(--main-color);
+}
+
+.visit a {
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+#navbar button {
+    float: right;
+    background-color: var(--third-color);
+    margin: 10px;
+    color: var(--main-color);
+}
+
+.latte {
+    max-width: 100%;
+    height: auto;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#subtitle {
+    display: flex;
+    position: relative;
+    top: -330px;
+    color: var(--third-color);
+    font-size: 1em;
+    padding: 10px;
+}
+
+h1 {
+    position: relative;
+    top: -340px;
+    font-size: 2.5em;
+    color: var(--third-color);
+    padding: 10px;
+}
+
+h1 .passion {
+    color: rgba(124, 71, 35, 1);
+}
+
+.description {
+    position: relative;
+    top: -340px;
+    font-size: 1.2em;
+    color: var(--third-color);
+    font-weight: 800;
+    padding: 10px;
+}
