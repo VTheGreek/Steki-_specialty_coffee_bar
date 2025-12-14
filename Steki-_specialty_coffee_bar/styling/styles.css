@@ -15,6 +15,7 @@
     top: 0;
     overflow: hidden;
     background-color: var(--secondary-color);
+    opacity: 0.9;
 }
 
 #navbar .nav {
@@ -94,4 +95,78 @@ h1 .passion {
     color: var(--third-color);
     font-weight: 800;
     padding: 10px;
+}
+
+.explore {
+    position: relative;
+    top: -340px;
+    padding: 10px;
+    background-color: var(--third-color);
+    color: var(--main-color);
+    border-radius: 20px;
+    border: 1px solid transparent;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.story {
+    position: relative;
+    top: -340px;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 1.2rem;
+    border: 2px solid var(--secondary-color);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.menu {
+    position: relative;
+    margin: 10px;
+    top: -230px;
+    text-align: center;
+}
+
+.menu h3 {
+    font-size: 1.3rem;
+    color: var(--third-color);
+    padding: 15px;
+}
+
+.menu h2 {
+    font-size: 2.5rem;
+    font-family: "Times New Roman", Times, serif;
+    padding: 15px;
+}
+
+.menu p {
+    font-size: 1rem;
+    font-weight: 800;
+    opacity: 0.7;
+}
+
+article {
+    position: relative;
+    top: -100px;
+    padding: 10px;
+}
+
+article h3 {
+    color: var(--third-color);
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+article h2 {
+    font-size: 2.5rem;
+    font-style: oblique;
+}
+
+article h2 span {
+    color: var(--third-color);
+}
+
+.our-story {
+    padding: 15px;
+    float: left;
 }
