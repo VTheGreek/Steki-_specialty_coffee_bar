@@ -3,6 +3,27 @@
     padding: 0;
 }
 
+html,
+body {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+main {
+    flex: 1;
+}
+
 :root {
     --main-color: #e6e1e1;
     --black-color: #242424;
@@ -208,4 +229,77 @@ article h2 span {
 #heart,
 #leaf {
     padding: 10px;
+}
+
+.hello {
+    position: relative;
+    bottom: -230px;
+    left: -400px;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--third-color);
+    color: var(--secondary-color);
+    border-radius: 20px;
+    border: 1px solid transparent;
+    box-shadow: -6px 3px 5px -2px #282928;
+    font-size: 1.2rem;
+    margin: 10px;
+    transition: transform .2s;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--secondary-color);
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer {
+    flex: 1;
+    list-style: none;
+}
+
+.footer p {
+    flex-direction: column;
+}
+
+.quick-links {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: var(--black-color);
+    margin-right: 10px;
+}
+
+.specialty-coffee p span {
+    font-size: 1.8em;
+    font-weight: 900;
+}
+
+.icons {
+    padding: 10px;
+}
+
+#mug::after {
+    content: "  " ;
+}
+
+.neighborhood {
+    padding-top: 15px;
+}
+
+#visit {
 }
